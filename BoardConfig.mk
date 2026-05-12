@@ -63,7 +63,6 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # VA/B with recovery partition. Leave this blank as Google recommends
 BOARD_USES_RECOVERY_AS_BOOT :=
-BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT :=
 
 # Generic system/kernel image
 BOARD_USES_GENERIC_KERNEL_IMAGE := true
