@@ -110,6 +110,9 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 # Verified Boot
 BOARD_AVB_ENABLE := true
 
+#Claude
+TW_TOUCHPANEL_DEVICE := fts_ts
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
