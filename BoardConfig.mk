@@ -136,7 +136,6 @@ TARGET_BOARD_INFO_FILE := \
     $(DEVICE_PATH)/board-info.txt
 
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
-TARGET_RECOVERY_QCOM_RTC_FIX := true
 
 # Debugging
 TARGET_USES_LOGD               := true
