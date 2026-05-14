@@ -77,6 +77,13 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ];
     # Very interesting, drops the ramdisk image size by ~6MB
     # While keeping the same boot times. Needs testing.
     # export FOX_COMPRESS_EXECUTABLES=1
+
+    # CLAUDE
+    export FOX_BUILD_DEVICE=beryl
+    export FOX_VIRTUAL_AB_DEVICE=1
+    export FOX_AB_DEVICE=1
+   export ALLOW_MISSING_DEPENDENCIES=true 
+   add_lunch_combo omni_beryl-ap2a-eng
   
     # CCACHE
     export USE_CCACHE=1
