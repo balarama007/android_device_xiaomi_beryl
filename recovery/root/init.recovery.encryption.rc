@@ -7,7 +7,3 @@ on property:ro.crypto.state=encrypted && property:twrp.firmware.mounted=true
 on property:twrp.all.users.decrypted=true
     stop keystore2
     stop vendor.keymint-mitee
-    setprop twrp.firmware.mounted false
-
-on property:of_decryption_failed=true
-    setprop twrp.firmware.mounted false

@@ -125,6 +125,13 @@ TARGET_USERIMAGES_USE_EXT4    := true
 TARGET_USERIMAGES_USE_F2FS    := true
 TARGET_USES_MKE2FS            := true
 
+#Gemini
+BOARD_PREBUILT_DTBIMAGE := device/xiaomi/beryl/prebuilt/dtb
+
+BOARD_RECOVERY_RAMDISK_KERNEL_MODULES := $(wildcard device/xiaomi/beryl/prebuilt/modules/*.ko)
+
+TARGET_RECOVERY_FSTAB := device/xiaomi/beryl/recovery.fstab
+
 # Recovery
 TARGET_SYSTEM_PROP := \
     $(DEVICE_PATH)/system.prop
